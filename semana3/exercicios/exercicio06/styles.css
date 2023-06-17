@@ -72,5 +72,161 @@ nav > a:hover {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
   flex: 1;
+  align-items: center;
+  
 }
+
+.catalogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.cardviagem {
+  width: 300px;
+  height: 300px;
+  background-color:white;
+  padding: 5px;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: #000080;
+}
+
+.cardviagem img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.cardviagem span {
+  color: #120181;
+  font-weight: bold;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.footercard {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footercard div {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.footercard div span{
+  font-style:normal;
+  font-size: 20px;
+}
+
+.footercard button{
+  background-color: red;
+  border: 0;
+  color: white;
+  border-radius: 5px;
+}
+
+.buscaviagem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  
+}
+
+.buscaviagem input {
+  border: 1.5px solid #120181;
+  border-radius: 5px;
+  
+}
+
+.buscaviagem span {
+  color: #000080;
+}
+
+.buscaviagem input::placeholder {
+ padding-left: 10px;
+}
+
+.buscaviagem input[type="text"] {
+  width: 200px;
+  height: 22px;
+}
+
+.buscaviagem input[type="date"] {
+  
+  height: 24px;
+}
+
+.buscaviagem button {
+  width: 100px;
+  height: 28px;
+  background-color: red;
+  border: 0;
+  color: white;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
